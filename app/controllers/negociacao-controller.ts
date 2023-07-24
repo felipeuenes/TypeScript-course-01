@@ -2,8 +2,8 @@ import { Negociacao } from "../models/negociacao.js";
 
 export class NegociacaoController {
     private inputData: HTMLInputElement;
-    private inputQuantidade: HTMLImageElement;
-    private inputValor: HTMLImageElement;
+    private inputQuantidade: HTMLInputElement;
+    private inputValor: HTMLInputElement;
 
     constructor(){
         this.inputData = document.querySelector('#data');
